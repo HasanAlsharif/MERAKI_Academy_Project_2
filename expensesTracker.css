@@ -4,22 +4,44 @@
 */
 
 /* html */ 
-p1 {
-font-weight: 900;
-color: rgb(143, 13, 121);
-background-color: salmon;
+#signup{
+    left: 20px;
+    top: 4px;
+   
+}
+
+button2 {
+    color: rgb(145, 13, 123);
+    position: relative;
+    font-weight: 900;
+    left: 1200px;
+    top: 4px;
 }
 
 p2 {
+    position: relative;
     font-weight: 900;
-    color: rgb(143, 13, 121)
+    color: rgb(143, 13, 121);
+    left: 1050px;
+    top: 4px;
     }
 
+
 div1 {
-    border: 2px solid red;
+    background-color: rgb(240, 240, 240) ;
     width: 100%;
-    height: 25px;
+    height: 31px;
     top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+div2 {
+    background-color: rgb(240, 240, 240) ;
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
     left: 0;
     position: fixed;
 }
@@ -27,19 +49,18 @@ div1 {
 
 
 
-
 /* DOM */ 
     h1 {color: red;}
 
-    .coverclass{
-    background-image: url(./2.jpg);
-    position:fixed;
-    width: 100vw;
-    height:100vh;
-    background-repeat: no-repeat;
-    background-size : 100% 100% ;
-    top:40px;
-    left:0px;
-    z-index:1000;
+    .backgroundclass{
+        background-image: url(./17.jpg);
+        position: fixed ;
+        width: 100vw;
+        height:95vh;
+        background-repeat: no-repeat;
+        background-size : 100% 100% ;
+        top: 30px;
+        left:0px;
+        z-index:-1;
     }
 

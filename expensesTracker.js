@@ -40,7 +40,7 @@ menulist.appendTo(bodydiv)
 
 
 //css
-bodydiv.addClass("coverclass")
+bodydiv.addClass("backgroundclass")
 
 
 
