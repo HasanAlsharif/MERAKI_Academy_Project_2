@@ -29,9 +29,11 @@ menuh.appendTo(menudiv)
 //css
 bodydiv.css({
 "background-image": "url(./1.jpg)",
-"position":"fixed",
+"position":"relative",
 "width":"100%",
 "height":"100%",
+"background-repeat": "no-repeat",
+"background-size" : "100% 100%",
 "top":"0px",
 "left":"0px",
 "z-index":"1000",
