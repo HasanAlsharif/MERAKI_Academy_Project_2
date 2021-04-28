@@ -1,7 +1,34 @@
-body{
+/*body{
     height: 100%;
     }
-    
+*/
+
+/* html */ 
+p1 {
+font-weight: 900;
+color: rgb(143, 13, 121);
+background-color: salmon;
+}
+
+p2 {
+    font-weight: 900;
+    color: rgb(143, 13, 121)
+    }
+
+div1 {
+    border: 2px solid red;
+    width: 100%;
+    height: 25px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+
+
+
+/* DOM */ 
     h1 {color: red;}
 
     .coverclass{
@@ -15,3 +42,4 @@ body{
     left:0px;
     z-index:1000;
     }
+
