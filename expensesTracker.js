@@ -11,6 +11,8 @@ const mainh = $("<h1 id= 'mainh' > MyExpenses Tracker</h1>")
 const menuh = $("<h1 id= 'menuh' >Main Menu</h1>")
 
 
+
+
 //ul
 const menulist = $("<ul id='menulist'> </ul>");
 
@@ -24,10 +26,13 @@ menulist.append("<li> anything </li>");
 
 
 
+
+
 //paragraphz
 const welcomto= $("<p id='welcometo'> Welcome to </p>")
 const moto= $("<p id='moto'> Your money's best friend </p>")
-
+//button as head
+const start = $("<p id='start'> Start saving now! >>> </p>")
 
 //appendz
 
@@ -37,12 +42,19 @@ menudiv.appendTo(bodydiv)
 mainh.appendTo(maindiv)
 moto.appendTo(maindiv)
 welcomto.appendTo(maindiv)
+start.appendTo(maindiv)
+
 menuh.appendTo(menudiv)
 menulist.appendTo(bodydiv)
 
 
 //css
 bodydiv.addClass("backgroundclass")
+mainh.addClass("myexpensesclass")
+welcomto.addClass("welcometoclass")
+moto.addClass("motoclass")
+start.addClass("start")
+
 
 
 

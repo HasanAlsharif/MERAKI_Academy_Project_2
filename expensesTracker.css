@@ -33,11 +33,20 @@ divup {
 p3 {
     position: relative;
     font-weight: 900;
-    color: rgb(143, 13, 121);
-    left: 1050px;
-    top: 4px;
+    color: rgb(7, 7, 7);
+    left: 1100px;
+    top: 7px;
     }
 
+    p4 {
+        position: relative;
+        font-weight: 500;
+        color: rgb(7, 7, 7);
+        
+        top: 7px;
+        }
+
+    
 
 
 
@@ -61,7 +70,36 @@ p3 {
     }
 
     .myexpensesclass {
-
-
+        position: fixed;
+        color: rgb(173, 5, 13);
+        font-size: 90px;
+        left: 300px;
+        top: 200px;
     }
 
+    .welcometoclass{
+        position: fixed;
+        color: rgb(36, 36, 36);
+        font-size: 30px;
+        left: 305px;
+        top: 200px;
+    }
+
+    .motoclass{
+        position: fixed;
+        color: rgb(7, 7, 7);
+        font-size: 40px;
+        left: 510px;
+        top: 360px;
+    }
+
+    .start{
+        position: fixed;
+        border: solid 2px ;
+        padding: 15px;
+        color: rgb(7, 7, 7);
+        font-size: 25px;
+        font-weight: 550;
+        left: 570px;
+        top: 450px;
+    }
