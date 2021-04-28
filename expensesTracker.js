@@ -35,7 +35,6 @@ bodydiv.css({
 "top":"0px",
 "left":"0px",
 "z-index":"1000",
-
 })
 
 
