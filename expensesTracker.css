@@ -23,7 +23,7 @@ divup {
 
 
    divdown {
-    background-color: rgb(240, 240, 240) ;
+    background-color: rgb(201, 201, 201) ;
     width: 100%;
     height: 30px;
     bottom: 0px;
@@ -47,8 +47,7 @@ p3 {
 
 
 /* DOM */ 
-    h1 {color: red;}
-
+    
     .backgroundclass{
         background-image: url(./17.jpg);
         position: fixed ;
@@ -59,5 +58,10 @@ p3 {
         top: 30px;
         left:0px;
         z-index:-1;
+    }
+
+    .myexpensesclass {
+
+
     }
 

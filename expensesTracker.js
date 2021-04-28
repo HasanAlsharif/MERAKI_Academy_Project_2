@@ -7,7 +7,7 @@ const menudiv = $("<div id='menudiv'> </div>")
 const boxesdiv = $("<div id='boxesdiv'> </div>")
 
 //headz
-const mainh = $("<h1 id= 'mainh' >Welcome to MyExpenses Tracker</h1>")
+const mainh = $("<h1 id= 'mainh' > MyExpenses Tracker</h1>")
 const menuh = $("<h1 id= 'menuh' >Main Menu</h1>")
 
 
@@ -25,6 +25,7 @@ menulist.append("<li> anything </li>");
 
 
 //paragraphz
+const welcomto= $("<p id='welcometo'> Welcome to </p>")
 const moto= $("<p id='moto'> Your money's best friend </p>")
 
 
@@ -35,6 +36,7 @@ maindiv.appendTo(bodydiv)
 menudiv.appendTo(bodydiv)
 mainh.appendTo(maindiv)
 moto.appendTo(maindiv)
+welcomto.appendTo(maindiv)
 menuh.appendTo(menudiv)
 menulist.appendTo(bodydiv)
 
