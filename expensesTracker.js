@@ -10,7 +10,7 @@ const boxesdiv = $("<div id='boxesdiv'> </div>")
 const mainh = $("<h1 id= 'mainh' >Welcome to MyExpenses Tracker</h1>")
 const menuh = $("<h1 id= 'menuh' >Main Menu</h1>")
 
-/*
+
 //ul
 const menulist = $("<ul id='menulist'> </ul>");
 
@@ -20,7 +20,7 @@ menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
-*/
+
 
 
 
@@ -36,7 +36,7 @@ menudiv.appendTo(bodydiv)
 mainh.appendTo(maindiv)
 moto.appendTo(maindiv)
 menuh.appendTo(menudiv)
-//menulist.appendTo(bodydiv)
+menulist.appendTo(bodydiv)
 
 
 //css
