@@ -3,3 +3,15 @@ body{
     }
     
     h1 {color: red;}
+
+    .coverclass{
+    background-image: url(./2.jpg);
+    position:fixed;
+    width: 100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size : 100% 100% ;
+    top:40px;
+    left:0px;
+    z-index:1000;
+    }

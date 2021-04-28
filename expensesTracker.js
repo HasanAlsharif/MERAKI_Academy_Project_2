@@ -10,6 +10,17 @@ const boxesdiv = $("<div id='boxesdiv'> </div>")
 const mainh = $("<h1 id= 'mainh' >Welcome to MyExpenses Tracker</h1>")
 const menuh = $("<h1 id= 'menuh' >Main Menu</h1>")
 
+/*
+//ul
+const menulist = $("<ul id='menulist'> </ul>");
+
+menulist.append("<li> anything </li>");
+menulist.append("<li> anything </li>");
+menulist.append("<li> anything </li>");
+menulist.append("<li> anything </li>");
+menulist.append("<li> anything </li>");
+menulist.append("<li> anything </li>");
+*/
 
 
 
@@ -25,20 +36,11 @@ menudiv.appendTo(bodydiv)
 mainh.appendTo(maindiv)
 moto.appendTo(maindiv)
 menuh.appendTo(menudiv)
+//menulist.appendTo(bodydiv)
+
 
 //css
-bodydiv.css({
-"background-image": "url(./1.jpg)",
-"position":"relative",
-"width":"100%",
-"height":"100%",
-"background-repeat": "no-repeat",
-"background-size" : "100% 100%",
-"top":"0px",
-"left":"0px",
-"z-index":"1000",
-})
-
+bodydiv.addClass("coverclass")
 
 
 
