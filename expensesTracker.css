@@ -150,8 +150,17 @@ p3 {
     width: 350px;
     top: 110px;
     left: 350px;
-
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 39, 38);
 }
+
+    .lables{
+        color: rgb(207, 207, 207);
+        margin: 10px;
+        border: solid 0.01px rgba(255, 127, 80, 0.418);
+        
+    }
 
 .mydatadiv2{
     position: fixed;
@@ -159,9 +168,17 @@ p3 {
     height: 500px;
     width: 350px;
     top: 110px;
-    left: 700px;
-
+    left: 500px;
+    display: flex;
+    flex-direction: column;
 }
+
+    .inputs{
+        margin: 10.2px;
+        
+    }
+
+
 
 
 
