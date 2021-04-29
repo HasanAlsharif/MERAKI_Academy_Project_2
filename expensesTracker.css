@@ -111,7 +111,7 @@ p3 {
 
 #menuheader{
     position: fixed;
-    color: rgb(240, 240, 240);
+    color: rgb(230, 230, 230);
     left: 60px ;
     top: 120px;
 
@@ -136,10 +136,33 @@ p3 {
         background-color: rgba(245, 245, 245, 0.726);
         border-radius: 3px;
         font-size: 30px;
-        font-;
+       
         padding: 15px;
         margin: 7px;
     }
+
+    /* My data screen************************ */
+
+.mydatadiv1{
+    position: fixed;
+    border: solid;
+    height: 500px;
+    width: 350px;
+    top: 110px;
+    left: 350px;
+
+}
+
+.mydatadiv2{
+    position: fixed;
+    border: solid;
+    height: 500px;
+    width: 350px;
+    top: 110px;
+    left: 700px;
+
+}
+
 
 
 
@@ -151,7 +174,9 @@ p3 {
     }
 
     .overmenuitems{
+        position: relative;
         background-color: rgb(255, 255, 255);
-        border: solid 1px;
+        border: solid 0.5px;
+        left: 45px;
     }
 

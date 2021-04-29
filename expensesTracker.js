@@ -43,9 +43,9 @@ const button = $("<button> dsfjsdkf </button>")
 //Main Menu***************************************
 const menuheader = $("<h1 id= 'menuheader' > ≡ Main Menu</h1>")
 const menuitem1 = $("<p class= 'menuitems' > My Data </p>")
-const menuitem2 = $("<p class= 'menuitems' > Monthly expenses </p>")
-const menuitem3 = $("<p class= 'menuitems' > Monthly expenses </p>")
-const menuitem4 = $("<p class= 'menuitems' > Monthly expenses </p>")
+const menuitem2 = $("<p class= 'menuitems' > Expenses </p>")
+const menuitem3 = $("<p class= 'menuitems' > Savings </p>")
+const menuitem4 = $("<p class= 'menuitems' > Month overview </p>")
 const menuitem5 = $("<p class= 'menuitems' > Monthly expenses </p>")
 
 
@@ -60,6 +60,15 @@ const moto= $("<p class='moto'> ''Your money's best friend'' </p>")
 
 //button main menu start--
 const start = $("<p class='start'> Start saving now! >>> </p>")
+
+
+// My Data **************************************
+const mydatadiv1 = $("<div class='mydatadiv1'> </div>")
+const mydatadiv2 = $("<div class='mydatadiv2'> </div>")
+
+
+
+
 
 
 
@@ -79,6 +88,9 @@ menuitem1.appendTo(menudiv)
 menuitem2.appendTo(menudiv)
 menuitem3.appendTo(menudiv)
 menuitem4.appendTo(menudiv)
+
+mydatadiv1.appendTo(bodydiv)
+mydatadiv2.appendTo(bodydiv)
 
 
 //css ***********************************************
