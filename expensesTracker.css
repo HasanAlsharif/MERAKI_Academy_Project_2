@@ -70,7 +70,7 @@ p3 {
 
 /* All Other DOM */ 
     
- 
+ /* welcom screen------ */
     .myexpenses {
         position: fixed;
         color: rgb(173, 5, 13);
@@ -106,14 +106,25 @@ p3 {
         top: 450px;
     }
 
+/* Main menu screen -------- */
+   
 
-    .menudiv{
+#menuheader{
+    position: fixed;
+    color: rgb(240, 240, 240);
+    left: 60px ;
+    top: 120px;
+
+}
+
+
+.menudiv{
         position: fixed;
-        border: solid red;
-        height: 400px;
+        
+        height: 1000px;
         width: 300px;
         top: 200px;
-        left: 30px;
+        left: 60px;
 
         display: flex;
         flex-direction: column;
@@ -122,11 +133,12 @@ p3 {
     }
 
     .menuitems{
-        border: solid;
+        background-color: rgba(245, 245, 245, 0.726);
+        border-radius: 3px;
         font-size: 30px;
+        font-;
         padding: 15px;
         margin: 7px;
-
     }
 
 
@@ -134,7 +146,12 @@ p3 {
     /* Dynamic css***********************************/ 
     /* Main Menu */
     
-    .mouseover{
+    .overstartbutton{
         color: whitesmoke;
-
     }
+
+    .overmenuitems{
+        background-color: rgb(255, 255, 255);
+        border: solid 1px;
+    }
+

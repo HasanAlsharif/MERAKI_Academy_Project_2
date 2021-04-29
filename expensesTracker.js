@@ -41,7 +41,7 @@ const button = $("<button> dsfjsdkf </button>")
 
 
 //Main Menu***************************************
-const menuheader = $("<h1 id= 'menuheader' >Main Menu</h1>")
+const menuheader = $("<h1 id= 'menuheader' > ≡ Main Menu</h1>")
 const menuitem1 = $("<p class= 'menuitems' > My Data </p>")
 const menuitem2 = $("<p class= 'menuitems' > Monthly expenses </p>")
 const menuitem3 = $("<p class= 'menuitems' > Monthly expenses </p>")
@@ -54,19 +54,15 @@ const menuitem5 = $("<p class= 'menuitems' > Monthly expenses </p>")
 
 
 
-
-
-
-
-
-
-
-
 //paragraphz************************************
 const welcomto= $("<p class='welcometo'> Welcome to </p>")
 const moto= $("<p class='moto'> ''Your money's best friend'' </p>")
-//button main menu start
+
+//button main menu start--
 const start = $("<p class='start'> Start saving now! >>> </p>")
+
+
+
 
 //appendz***************************************
 
@@ -86,7 +82,7 @@ menuitem4.appendTo(menudiv)
 
 
 //css ***********************************************
-
+// menuitem6.addClass("menuitems")
 
 
 
@@ -97,15 +93,22 @@ menuitem4.appendTo(menudiv)
 //main menu
 //start button
 $(start).on("mouseover", function(){
-  $(start).addClass("mouseover")
+  $(start).addClass("overstartbutton")
 })
 $(start).on("mouseout", function(){
-  $(start).removeClass("mouseover")
+  $(start).removeClass("overstartbutton")
 })
 
 //------
 
 
+$(".menuitems").on("mouseover", function(){
+    $(this).addClass("overmenuitems")
+})
+
+$(".menuitems").on("mouseout", function(){
+  $(this).removeClass("overmenuitems")
+})
 
 
 
