@@ -1,3 +1,14 @@
+/* how to add background to div
+$('#divID').css("background-image", "url(/myimage.jpg)");  
+Should do the trick, just hook it up in a click event on the element
+
+$('#divID').click(function()
+{
+  // do my image switching logic here.
+});
+*/
+
+
 const body = $("body");
 
 //divz
@@ -31,7 +42,7 @@ menulist.append("<li> anything </li>");
 //paragraphz
 const welcomto= $("<p id='welcometo'> Welcome to </p>")
 const moto= $("<p id='moto'> Your money's best friend </p>")
-//button as head
+//button main menu start
 const start = $("<p id='start'> Start saving now! >>> </p>")
 
 //appendz
@@ -57,16 +68,21 @@ start.addClass("start")
 
 
 
+//Dynamic
+
+//main menu
+
+$(start).on("mouseover", function(){
+  $(start).addClass("mouseover")
+})
+
+$(start).on("mouseout", function(){
+  $(start).removeClass("mouseover")
+})
 
 
-/* how to add background to div
-$('#divID').css("background-image", "url(/myimage.jpg)");  
-Should do the trick, just hook it up in a click event on the element
 
-$('#divID').click(function()
-{
-  // do my image switching logic here.
-});
-*/
+
+
 
 
