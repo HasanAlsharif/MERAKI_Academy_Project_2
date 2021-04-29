@@ -9,43 +9,66 @@ $('#divID').click(function()
 */
 
 
-const body = $("body");
+/* how to creat ul and li
 
-//divz
-const bodydiv = $("<div id='bodydiv'> </div>")
-const maindiv = $("<div id='maindiv'> </div>")
-const menudiv = $("<div id='menudiv'> </div>")
-const boxesdiv = $("<div id='boxesdiv'> </div>")
-
-//headz
-const mainh = $("<h1 id= 'mainh' > MyExpenses Tracker</h1>")
-const menuh = $("<h1 id= 'menuh' >Main Menu</h1>")
-
-
-
-
-//ul
 const menulist = $("<ul id='menulist'> </ul>");
 
+menulist.append("<li> MyData </li>");
+menulist.append("<li> month </li>");
 menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
 menulist.append("<li> anything </li>");
-menulist.append("<li> anything </li>");
-menulist.append("<li> anything </li>");
+
+menulist.appendTo(menudiv)
+
+*/
+
+
+const body = $("body");
+
+//divz**************************************
+const bodydiv = $("<div class='background'> </div>")
+const maindiv = $("<div id='maindiv'> </div>")
+const menudiv = $("<div class='menudiv'> </div>")
+
+
+//headz**************************************
+const mainh = $("<h1 class= 'myexpenses' > MyExpenses Tracker</h1>")
+const button = $("<button> dsfjsdkf </button>")
+
+
+
+
+//Main Menu***************************************
+const menuheader = $("<h1 id= 'menuheader' >Main Menu</h1>")
+const menuitem1 = $("<p class= 'menuitems' > My Data </p>")
+const menuitem2 = $("<p class= 'menuitems' > Monthly expenses </p>")
+const menuitem3 = $("<p class= 'menuitems' > Monthly expenses </p>")
+const menuitem4 = $("<p class= 'menuitems' > Monthly expenses </p>")
+const menuitem5 = $("<p class= 'menuitems' > Monthly expenses </p>")
 
 
 
 
 
 
-//paragraphz
-const welcomto= $("<p id='welcometo'> Welcome to </p>")
-const moto= $("<p id='moto'> Your money's best friend </p>")
+
+
+
+
+
+
+
+
+
+//paragraphz************************************
+const welcomto= $("<p class='welcometo'> Welcome to </p>")
+const moto= $("<p class='moto'> ''Your money's best friend'' </p>")
 //button main menu start
-const start = $("<p id='start'> Start saving now! >>> </p>")
+const start = $("<p class='start'> Start saving now! >>> </p>")
 
-//appendz
+//appendz***************************************
 
 bodydiv.appendTo(body)
 maindiv.appendTo(bodydiv)
@@ -55,30 +78,33 @@ moto.appendTo(maindiv)
 welcomto.appendTo(maindiv)
 start.appendTo(maindiv)
 
-menuh.appendTo(menudiv)
-menulist.appendTo(bodydiv)
+menuheader.appendTo(bodydiv)
+menuitem1.appendTo(menudiv)
+menuitem2.appendTo(menudiv)
+menuitem3.appendTo(menudiv)
+menuitem4.appendTo(menudiv)
 
 
-//css
-bodydiv.addClass("backgroundclass")
-mainh.addClass("myexpensesclass")
-welcomto.addClass("welcometoclass")
-moto.addClass("motoclass")
-start.addClass("start")
+//css ***********************************************
 
 
 
-//Dynamic
+
+
+
+//Dynamic********************************************
 
 //main menu
-
+//start button
 $(start).on("mouseover", function(){
   $(start).addClass("mouseover")
 })
-
 $(start).on("mouseout", function(){
   $(start).removeClass("mouseover")
 })
+
+//------
+
 
 
 
