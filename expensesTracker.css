@@ -210,11 +210,13 @@ p3 {
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 39, 38);
+    display: flex;
 }
 
 .results{
-
-    
+    position: relative;
+    left: 10px;
+    color: rgb(207, 207, 207);
 }
 
 
