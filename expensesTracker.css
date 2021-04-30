@@ -145,11 +145,11 @@ p3 {
 
 .mydatadiv1{
     position: fixed;
-    border: solid;
+    border-radius: 8px;
     height: 500px;
-    width: 350px;
+    width: 250px;
     top: 110px;
-    left: 350px;
+    left: 500px;
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 39, 38);
@@ -157,20 +157,21 @@ p3 {
 
     .lables{
         color: rgb(207, 207, 207);
-        margin: 10px;
-        border: solid 0.01px rgba(255, 127, 80, 0.418);
+        margin: 10.9px;
+       
         
     }
 
 .mydatadiv2{
     position: fixed;
-    border: solid;
+    border-radius: 8px;
     height: 500px;
-    width: 350px;
+    width: 200px;
     top: 110px;
-    left: 500px;
+    left: 670px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(39, 39, 38);
 }
 
     .inputs{
@@ -178,7 +179,15 @@ p3 {
         
     }
 
-
+    #backbutton{
+       position: fixed;
+        z-index: 1;
+        left: 650px;
+        top: 650px;
+        font-size: 18px;
+        padding: 5px;
+      
+    }
 
 
 

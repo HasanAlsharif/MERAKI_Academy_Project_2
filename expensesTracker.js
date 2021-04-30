@@ -94,7 +94,7 @@ const input10 = $("<input type='number' class= 'inputs'>")
 const input11 = $("<input type='number' class= 'inputs'>")
 const input12 = $("<input type='number' class= 'inputs'>")
 
-
+const	backbutton = $("<button id='backbutton'> Back </button>")
 
 
 
@@ -140,6 +140,9 @@ input9.appendTo(mydatadiv2)
 input10.appendTo(mydatadiv2)
 input11.appendTo(mydatadiv2)
 input12.appendTo(mydatadiv2)
+backbutton.appendTo(bodydiv)
+
+
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")
