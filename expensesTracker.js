@@ -98,6 +98,18 @@ const	backbutton = $("<button id='backbutton'> Back </button>")
 
 
 
+// expenses *******************************************
+
+const expensesdiv = $("<div class='expensesdiv'> </div>")
+
+const result1 = $("<p class= 'results' > Total monthly income: </p>")
+
+
+
+
+
+
+
 //appendz***************************************
 
 bodydiv.appendTo(body)
@@ -143,6 +155,8 @@ input12.appendTo(mydatadiv2)
 backbutton.appendTo(bodydiv)
 
 
+expensesdiv.appendTo(bodydiv)
+result1.appendTo(expensesdiv)
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")

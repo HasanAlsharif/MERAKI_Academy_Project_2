@@ -14,9 +14,17 @@ divup {
     position: fixed;
 }
 
-signup {
-    left: 200px;
-    top: 4px;
+
+#signup {
+    position: fixed;
+    left: 1200px;
+    top: 5px;
+   }
+
+   #login {
+    position: fixed;
+    left: 1140px;
+    top: 5px;
    }
 
 
@@ -141,7 +149,8 @@ p3 {
         margin: 7px;
     }
 
-    /* My data screen************************ */
+
+ /* My data screen************************ */
 
 .mydatadiv1{
     position: fixed;
@@ -184,15 +193,35 @@ p3 {
         z-index: 1;
         left: 650px;
         top: 650px;
-        font-size: 18px;
+        font-size: 16px;
         padding: 5px;
       
     }
 
+/* Expenses***********************************/
+
+.expensesdiv{
+    position: fixed;
+    border-radius: 8px;
+    height: 300px;
+    width: 400px;
+    top: 110px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 39, 38);
+}
+
+.results{
+
+    
+}
 
 
 
-    /* Dynamic css***********************************/ 
+
+
+/* Dynamic css***********************************/ 
     /* Main Menu */
     
     .overstartbutton{
