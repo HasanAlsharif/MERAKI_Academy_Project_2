@@ -205,17 +205,20 @@ p3 {
     border-radius: 8px;
     height: 300px;
     width: 400px;
-    top: 110px;
+    top: 200px;
     left: 200px;
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 39, 38);
-    display: flex;
+    display: grid;
+    grid-template-columns: 250px 200px;
+    grid-template-rows: repeat(5,30px);
+    row-gap: 20px;
 }
 
 .results{
     position: relative;
-    left: 10px;
+    left: 20px;
     color: rgb(207, 207, 207);
 }
 

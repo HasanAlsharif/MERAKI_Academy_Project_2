@@ -165,16 +165,20 @@ backbutton.appendTo(bodydiv)
 
 expensesdiv.appendTo(bodydiv)
     resulttext1.appendTo(expensesdiv)
-    resulttext2.appendTo(expensesdiv)
-    resulttext3.appendTo(expensesdiv)
-    resulttext4.appendTo(expensesdiv)
-    resulttext5.appendTo(expensesdiv)
-
     result1.appendTo(expensesdiv)
+    resulttext2.appendTo(expensesdiv)
     result2.appendTo(expensesdiv)
+    resulttext3.appendTo(expensesdiv)
     result3.appendTo(expensesdiv)
+    resulttext4.appendTo(expensesdiv)
     result4.appendTo(expensesdiv)
+    resulttext5.appendTo(expensesdiv)
     result5.appendTo(expensesdiv)
+    
+    
+    
+   
+    
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")
