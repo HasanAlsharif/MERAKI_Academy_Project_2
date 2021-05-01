@@ -265,9 +265,34 @@ $(".menuitems").on("mouseout", function(){
 
 
 
-
+//Show / hide ********************************************
 //const xyz = .......
 //xyz.hide() : to hide
 //xyz.show()  : to show
 //xyz.fadeIn(slow)
 //xyz.fadeOut(slow)
+
+// maindiv
+// menudiv
+// mydatadiv1
+// mydatadiv2
+// expensesdiv
+
+
+//---main menu
+
+menuheader.hide()
+menudiv.hide()
+
+//--- my Data
+mydatadiv1.hide()
+mydatadiv2.hide()
+
+//-- my expenses
+expensesdiv.hide()
+
+
+
+//--back button
+
+
