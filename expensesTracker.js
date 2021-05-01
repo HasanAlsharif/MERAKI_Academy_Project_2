@@ -299,10 +299,32 @@ backbutton.hide()
 
 //--on click start button
 $(start).on("click", function(){
-  maindiv.hide() 
-  menuheader.fadeIn()
-  menudiv.fadeIn()
+  maindiv.fadeOut() 
+  menuheader.fadeIn('slow')
+  menudiv.fadeIn('slow')
 })
 
+
+$(menuitem1).on("click", function(){
+  
+  menuheader.fadeOut()
+  menudiv.fadeOut()
+
+  mydatadiv1.fadeIn()
+  mydatadiv2.fadeIn()
+  backbutton.fadeIn()
+})
+
+$(backbutton).on("click", function(){
+  
+  mydatadiv1.fadeOut()
+  mydatadiv2.fadeOut()
+  backbutton.fadeOut()
+  
+  menuheader.fadeIn()
+  menudiv.fadeIn()
+
+
+})
 
 
