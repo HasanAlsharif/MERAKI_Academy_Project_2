@@ -294,5 +294,15 @@ expensesdiv.hide()
 
 
 //--back button
+backbutton.hide()
+
+
+//--on click start button
+$(start).on("click", function(){
+  maindiv.hide() 
+  menuheader.fadeIn()
+  menudiv.fadeIn()
+})
+
 
 
