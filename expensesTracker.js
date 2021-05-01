@@ -119,7 +119,7 @@ const expensesdiv = $("<div class='expensesdiv'> </div>")
     
     let result1 = $("<p id='r1' class= 'results' > 0 </p>")
     let result2 = $("<p id='r2' class= 'results' > 0 </p>")
-    let result3 = $("<p id='r3' class= 'results' > 15 </p>")
+    let result3 = $("<p id='r3' class= 'results' > 0 </p>")
     let result4 = $("<p id='r4' class= 'results' > 0 </p>")
     let result5 = $("<p id='r5' class= 'results' > 0 </p>")
 
@@ -204,15 +204,16 @@ expensesdiv.appendTo(bodydiv)
 //result1.text(x)
 
 
-let income = 0
-$("#i2").on("change",()=>{
- //because $("#i1").val() is a string
- income = Number($("#i1").val()) + Number($("#i2").val())
- result1.html(income)
-})
 
+let income = 0
 let expenses = 0
+let sum = 0
 $("#i12").on("change",()=>{
+  
+  income = Number($("#i1").val()) + Number($("#i2").val())
+  result1.html(income)
+  
+  
   expenses = 
   Number($("#i3").val()) + 
   Number($("#i4").val()) +
@@ -225,7 +226,7 @@ $("#i12").on("change",()=>{
   Number($("#i11").val()) +
   Number($("#i12").val())
   result2.html(expenses)
-
+  result3.html(income - expenses)
  })
 
 
