@@ -110,7 +110,7 @@ const expensesdiv = $("<div class='expensesdiv'> </div>")
     const resulttext1 = $("<p class= 'results' > Total monthly income: </p>")
     const resulttext2 = $("<p class= 'results' > Total monthly expenses: </p>")
     const resulttext3 = $("<p class= 'results' > sum: </p>")
-    const resulttext4 = $("<p class= 'results' > Amount for savings (20%): </p>")
+    const resulttext4 = $("<p class= 'results' > Amount for savings (50%): </p>")
     const resulttext5 = $("<p class= 'results' > Total Amount remaining: </p>")
     
 
@@ -207,13 +207,12 @@ expensesdiv.appendTo(bodydiv)
 
 let income = 0
 let expenses = 0
-let sum = 0
+
 $("#i12").on("change",()=>{
   
   income = Number($("#i1").val()) + Number($("#i2").val())
   result1.html(income)
-  
-  
+    
   expenses = 
   Number($("#i3").val()) + 
   Number($("#i4").val()) +
@@ -227,6 +226,8 @@ $("#i12").on("change",()=>{
   Number($("#i12").val())
   result2.html(expenses)
   result3.html(income - expenses)
+  result4.html((income - expenses)*50/100)
+  result5.html(income - expenses - ((income - expenses)*50/100))
  })
 
 
