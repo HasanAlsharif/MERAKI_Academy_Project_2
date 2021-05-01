@@ -204,7 +204,6 @@ expensesdiv.appendTo(bodydiv)
 //result1.text(x)
 
 
-
 let income = 0
 $("#i2").on("change",()=>{
  //because $("#i1").val() is a string
@@ -230,10 +229,7 @@ $("#i12").on("change",()=>{
  })
 
 
-// $("#i2").on("change",()=>{
-//    Number($("#i2").val()) 
-//   income = income +  Number($("#i2").val())
-//   })
+
 
   
 
