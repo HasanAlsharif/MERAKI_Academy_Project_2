@@ -315,16 +315,25 @@ $(menuitem1).on("click", function(){
   backbutton.fadeIn()
 })
 
+
 $(backbutton).on("click", function(){
   
   mydatadiv1.fadeOut()
   mydatadiv2.fadeOut()
   backbutton.fadeOut()
+  expensesdiv.fadeOut()
   
   menuheader.fadeIn()
   menudiv.fadeIn()
 
-
 })
 
 
+$(menuitem2).on("click", function(){
+  
+  menuheader.fadeOut()
+  menudiv.fadeOut()
+
+  expensesdiv.fadeIn()
+  backbutton.fadeIn()
+})
