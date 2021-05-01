@@ -213,4 +213,8 @@ $(".menuitems").on("mouseout", function(){
 
 
 
-
+//const xyz = .......
+//xyz.hide() : to hide
+//xyz.show()  : to show
+//xyz.fadeIn(slow)
+//xyz.fadeOut(slow)
