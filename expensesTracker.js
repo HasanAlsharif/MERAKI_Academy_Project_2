@@ -206,11 +206,29 @@ expensesdiv.appendTo(bodydiv)
 
 
 let income = 0
-$("#i1").on("change",()=>{
+$("#i2").on("change",()=>{
  //because $("#i1").val() is a string
- income1 = Number($("#i1").val()) + Number($("#i2").val())
- 
+ income = Number($("#i1").val()) + Number($("#i2").val())
+ result1.html(income)
 })
+
+let expenses = 0
+$("#i12").on("change",()=>{
+  expenses = 
+  Number($("#i3").val()) + 
+  Number($("#i4").val()) +
+  Number($("#i5").val()) +
+  Number($("#i6").val()) +
+  Number($("#i7").val()) +
+  Number($("#i8").val()) +
+  Number($("#i9").val()) +
+  Number($("#i10").val()) +
+  Number($("#i11").val()) +
+  Number($("#i12").val())
+  result2.html(expenses)
+
+ })
+
 
 // $("#i2").on("change",()=>{
 //    Number($("#i2").val()) 
