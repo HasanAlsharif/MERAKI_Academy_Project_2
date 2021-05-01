@@ -107,13 +107,17 @@ const expensesdiv = $("<div class='expensesdiv'> </div>")
     const resulttext3 = $("<p class= 'results' > sum: </p>")
     const resulttext4 = $("<p class= 'results' > Amount for savings (20%): </p>")
     const resulttext5 = $("<p class= 'results' > Total Amount remaining: </p>")
+    
+    
 
-    const result1 = $("<p class= 'results' > 0 </p>")
-    const result2 = $("<p class= 'results' > 0 </p>")
-    const result3 = $("<p class= 'results' > 0 </p>")
-    const result4 = $("<p class= 'results' > 0 </p>")
-    const result5 = $("<p class= 'results' > 0 </p>")
+    let result1 = $("<p id='r1' class= 'results' > 0 </p>")
+    let result2 = $("<p id='r2' class= 'results' > 0 </p>")
+    let result3 = $("<p id='r3' class= 'results' > 0 </p>")
+    let result4 = $("<p id='r4' class= 'results' > 0 </p>")
+    let result5 = $("<p id='r5' class= 'results' > 0 </p>")
 
+    
+    
 
 
 
@@ -182,6 +186,10 @@ expensesdiv.appendTo(bodydiv)
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")
+
+//Functionality ***********************************************
+
+
 
 
 

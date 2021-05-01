@@ -206,7 +206,7 @@ p3 {
     height: 270px;
     width: 400px;
     top: 200px;
-    left: 480px;
+    /* left: 480px; */
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 39, 38);
@@ -221,7 +221,6 @@ p3 {
     left: 20px;
     color: rgb(207, 207, 207);
 }
-
 
 
 
