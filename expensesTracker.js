@@ -81,18 +81,23 @@ const lable11 = $("<p class= 'lables' > fuel: </p>")
 const lable12 = $("<p class= 'lables' > miscellaneous: </p>")
 
 
-const input1 = $("<input type='number' class= 'inputs'>")
-const input2 = $("<input type='number' class= 'inputs'>")
-const input3 = $("<input type='number' class= 'inputs'>")
-const input4 = $("<input type='number' class= 'inputs'>")
-const input5 = $("<input type='number' class= 'inputs'>")
-const input6 = $("<input type='number' class= 'inputs'>")
-const input7 = $("<input type='number' class= 'inputs'>")
-const input8 = $("<input type='number' class= 'inputs'>")
-const input9 = $("<input type='number' class= 'inputs'>")
-const input10 = $("<input type='number' class= 'inputs'>")
-const input11 = $("<input type='number' class= 'inputs'>")
-const input12 = $("<input type='number' class= 'inputs'>")
+const input1 = $("<input id='i1' type='number' class= 'inputs'>")
+const input2 = $("<input id='i2' type='number' class= 'inputs'>")
+const input3 = $("<input id='i3' type='number' class= 'inputs'>")
+const input4 = $("<input id='i4' type='number' class= 'inputs'>")
+const input5 = $("<input id='i5' type='number' class= 'inputs'>")
+const input6 = $("<input id='i6' type='number' class= 'inputs'>")
+const input7 = $("<input id='i7' type='number' class= 'inputs'>")
+const input8 = $("<input id='i8' type='number' class= 'inputs'>")
+const input9 = $("<input id='i9' type='number' class= 'inputs'>")
+const input10 = $("<input id='i10' type='number' class= 'inputs'>")
+const input11 = $("<input id='i11' type='number' class= 'inputs'>")
+const input12 = $("<input id='i12' type='number' class= 'inputs'>")
+
+
+
+
+
 
 const	backbutton = $("<button id='backbutton'> Back </button>")
 
@@ -108,16 +113,19 @@ const expensesdiv = $("<div class='expensesdiv'> </div>")
     const resulttext4 = $("<p class= 'results' > Amount for savings (20%): </p>")
     const resulttext5 = $("<p class= 'results' > Total Amount remaining: </p>")
     
-    
 
+
+    
+    
     let result1 = $("<p id='r1' class= 'results' > 0 </p>")
     let result2 = $("<p id='r2' class= 'results' > 0 </p>")
-    let result3 = $("<p id='r3' class= 'results' > 0 </p>")
+    let result3 = $("<p id='r3' class= 'results' > 15 </p>")
     let result4 = $("<p id='r4' class= 'results' > 0 </p>")
     let result5 = $("<p id='r5' class= 'results' > 0 </p>")
 
     
     
+
 
 
 
@@ -178,7 +186,7 @@ expensesdiv.appendTo(bodydiv)
     result4.appendTo(expensesdiv)
     resulttext5.appendTo(expensesdiv)
     result5.appendTo(expensesdiv)
-    
+   
     
     
    
@@ -189,6 +197,27 @@ expensesdiv.appendTo(bodydiv)
 
 //Functionality ***********************************************
 
+//const h = 16
+//result1.html(h+1)
+        
+//let x = $("#i1").val()
+//result1.text(x)
+
+
+
+let income = 0
+$("#i1").on("change",()=>{
+ //because $("#i1").val() is a string
+ income1 = Number($("#i1").val()) + Number($("#i2").val())
+ 
+})
+
+// $("#i2").on("change",()=>{
+//    Number($("#i2").val()) 
+//   income = income +  Number($("#i2").val())
+//   })
+
+  
 
 
 
