@@ -167,6 +167,66 @@ result5.appendTo(expensesdiv);
 let income = 0;
 let expenses = 0;
 
+
+$("#i1").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+
+
+
+
+
+$("#i2").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 $("#i12").on("change", () => {
   income = Number($("#i1").val()) + Number($("#i2").val());
   result1.html(income);
@@ -188,7 +248,23 @@ $("#i12").on("change", () => {
   result5.html(income - expenses - ((income - expenses) * 50) / 100);
 });
 
+
+
+
+
+
+
+
+
+
+
 //Dynamic********************************************
+//upper bar
+
+
+
+
+
 
 //main menu
 //start button
