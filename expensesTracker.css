@@ -6,236 +6,239 @@
 /* html main Fixed items** no need for class********************* */
 
 divup {
-    background-color: rgb(240, 240, 240) ;
-    width: 100%;
-    height: 31px;
-    top: 0;
-    left: 0;
-    position: fixed;
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 31px;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
-
 
 #signup {
-    position: fixed;
-    left: 1200px;
-    top: 5px;
-   }
-
-   #login {
-    position: fixed;
-    left: 1140px;
-    top: 5px;
-   }
-
-
-
-
- divdown {
-    background-color: rgb(201, 201, 201) ;
-    width: 100%;
-    height: 30px;
-    bottom: 0px;
-    left: 0;
-    position: fixed;
+  position: fixed;
+  left: 100px;
+  top: 5px;
 }
 
-p3 {
-    font-weight: 550;
-    position: relative;
-    
-    border: solid 1.5px;
-    padding: 5px;
-    
-    color: rgb(7, 7, 7);
-    left: 1100px;
-    top: 6px;
+#login {
+  position: fixed;
+  left: 40px;
+  top: 5px;
+}
 
-    }
+divdown {
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  height: 30px;
+  bottom: 0px;
+  left: 0;
+  position: fixed;
+}
 
-    p4 {
-        position: relative;
-        font-weight: 500;
-        color: rgb(7, 7, 7);
-        
-        top: 7px;
-        }
+#home {
+  font-weight: 550;
+  position: fixed;
+  margin: 0px;
+
+  color: rgb(7, 7, 7);
+  left: 880px;
+  top: 5px;
+}
 
 
-/* DOM elements****************************************** */ 
-/* body */ 
- .background{
-     background-image: url(./17.jpg);
-     position: fixed ;
-     width: 100vw;
-     height:95vh;
-     background-repeat: no-repeat;
-     background-size : 100% 100% ;
-     top: 30px;
-     left:0px;
-     z-index:-1;
-        }
-    
+#contactus {
+  position: fixed;
+  margin: 0px;
+  font-weight: 550;
 
-/* All Other DOM */ 
-    
- /* welcom screen------ */
-    .myexpenses {
-        position: fixed;
-        color: rgb(173, 5, 13);
-        font-size: 90px;
-        left: 300px;
-        top: 200px;
-    }
+  color: rgb(7, 7, 7);
+  left: 960px;
+  top: 5px;
+}
 
-    .welcometo{
-        position: fixed;
-        color: rgb(36, 36, 36);
-        font-size: 30px;
-        left: 305px;
-        top: 200px;
-    }
 
-    .moto{
-        position: fixed;
-        color: rgb(7, 7, 7);
-        font-size: 40px;
-        left: 510px;
-        top: 360px;
-    }
+#about {
+  position: fixed;
+  margin: 0px;
+  font-weight: 550;
 
-    .start{
-        position: fixed;
-        border: solid 2px ;
-        padding: 15px;
-        color: rgb(7, 7, 7);
-        font-size: 25px;
-        font-weight: 550;
-        left: 570px;
-        top: 450px;
-    }
+  color: rgb(7, 7, 7);
+  left: 1070px;
+  top: 5px;
+}
+
+
+
+
+
+p4 {
+  position: relative;
+  font-weight: 500;
+  color: rgb(7, 7, 7);
+
+  top: 7px;
+}
+
+/* DOM elements****************************************** */
+/* body */
+.background {
+  background-image: url(./17.jpg);
+  position: fixed;
+  width: 100vw;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 30px;
+  left: 0px;
+  z-index: -1;
+}
+
+/* All Other DOM */
+
+/* welcom screen------ */
+.myexpenses {
+  position: fixed;
+  color: rgb(173, 5, 13);
+  font-size: 90px;
+  left: 300px;
+  top: 200px;
+}
+
+.welcometo {
+  position: fixed;
+  color: rgb(36, 36, 36);
+  font-size: 30px;
+  left: 305px;
+  top: 200px;
+}
+
+.moto {
+  position: fixed;
+  color: rgb(7, 7, 7);
+  font-size: 40px;
+  left: 510px;
+  top: 360px;
+}
+
+.start {
+  position: fixed;
+  border: solid 2px;
+  padding: 15px;
+  color: rgb(7, 7, 7);
+  font-size: 25px;
+  font-weight: 550;
+  left: 570px;
+  top: 450px;
+}
 
 /* Main menu screen -------- */
-   
 
-#menuheader{
-    position: fixed;
-    color: rgb(230, 230, 230);
-    left: 60px ;
-    top: 120px;
-
+#menuheader {
+  position: fixed;
+  color: rgb(230, 230, 230);
+  left: 60px;
+  top: 120px;
 }
 
+.menudiv {
+  position: fixed;
 
-.menudiv{
-        position: fixed;
-        
-        height: 1000px;
-        width: 300px;
-        top: 200px;
-        left: 60px;
+  height: 1000px;
+  width: 300px;
+  top: 200px;
+  left: 60px;
 
-        display: flex;
-        flex-direction: column;
-        
-
-    }
-
-    .menuitems{
-        background-color: rgba(245, 245, 245, 0.726);
-        border-radius: 3px;
-        font-size: 30px;
-       
-        padding: 15px;
-        margin: 7px;
-    }
-
-
- /* My data screen************************ */
-
-.mydatadiv1{
-    position: fixed;
-    border-radius: 8px;
-    height: 500px;
-    width: 250px;
-    top: 110px;
-    left: 500px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(39, 39, 38);
+  display: flex;
+  flex-direction: column;
 }
 
-    .lables{
-        color: rgb(207, 207, 207);
-        margin: 10.9px;
-       
-        
-    }
+.menuitems {
+  background-color: rgba(245, 245, 245, 0.726);
+  border-radius: 3px;
+  font-size: 30px;
 
-.mydatadiv2{
-    position: fixed;
-    border-radius: 8px;
-    height: 500px;
-    width: 200px;
-    top: 110px;
-    left: 670px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(39, 39, 38);
+  padding: 15px;
+  margin: 7px;
 }
 
-    .inputs{
-        margin: 10.2px;
-        
-    }
+/* My data screen************************ */
 
-    #backbutton{
-       position: fixed;
-        z-index: 1;
-        left: 650px;
-        top: 650px;
-        font-size: 14px;
-        padding: 5px;
-      
-    }
+.mydatadiv1 {
+  position: fixed;
+  border-radius: 8px;
+  height: 500px;
+  width: 250px;
+  top: 110px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 38);
+}
+
+.lables {
+  color: rgb(207, 207, 207);
+  margin: 10.9px;
+}
+
+.mydatadiv2 {
+  position: fixed;
+  border-radius: 8px;
+  height: 500px;
+  width: 200px;
+  top: 110px;
+  left: 670px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 38);
+}
+
+.inputs {
+  margin: 10.2px;
+}
+
+#backbutton {
+  position: fixed;
+  z-index: 1;
+  left: 650px;
+  top: 650px;
+  font-size: 14px;
+  padding: 5px;
+}
 
 /* Expenses***********************************/
 
-.expensesdiv{
-    position: fixed;
-    border-radius: 8px;
-    height: 270px;
-    width: 400px;
-    top: 200px;
-    left: 480px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(39, 39, 38);
-    display: grid;
-    grid-template-columns: 250px 200px;
-    grid-template-rows: repeat(5,30px);
-    row-gap: 20px;
+.expensesdiv {
+  position: fixed;
+  border-radius: 8px;
+  height: 270px;
+  width: 400px;
+  top: 200px;
+  /* left: 480px; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 38);
+  display: grid;
+  grid-template-columns: 250px 200px;
+  grid-template-rows: repeat(5, 30px);
+  row-gap: 20px;
 }
 
-.results{
-    position: relative;
-    left: 20px;
-    color: rgb(207, 207, 207);
+.results {
+  position: relative;
+  left: 20px;
+  color: rgb(207, 207, 207);
 }
 
+/* Dynamic css***********************************/
+/* Main Menu */
 
+.overstartbutton {
+  color: whitesmoke;
+}
 
-
-/* Dynamic css***********************************/ 
-    /* Main Menu */
-    
-    .overstartbutton{
-        color: whitesmoke;
-    }
-
-    .overmenuitems{
-        position: relative;
-        background-color: rgb(255, 255, 255);
-        border: solid 0.5px;
-        left: 45px;
-    }
-
+.overmenuitems {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: solid 0.5px;
+  left: 45px;
+}
