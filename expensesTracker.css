@@ -118,6 +118,20 @@ p4 {
 
 /* All Other DOM */
 
+/* login data */
+#logdatadiv{
+  position: fixed;
+  
+  border: solid black;
+  left: 20px;
+  width: 350px;
+  height: 100px;
+
+}
+
+
+
+
 /* welcom screen------ */
 .myexpenses {
   position: fixed;

@@ -26,9 +26,21 @@ menulist.appendTo(menudiv)
 const body = $("body");
 
 //divz**************************************
+
 const bodydiv = $("<div class='background'> </div>");
 const maindiv = $("<div id='maindiv'> </div>");
 const menudiv = $("<div class='menudiv'> </div>");
+const logdatadiv = $("<div id='logdatadiv'> </div>");
+
+//login**************************************
+const email = $("<input id='email' >");
+const password = $("<input id='password' >");
+
+
+
+
+
+
 
 //headz**************************************
 const mainh = $("<h1 class= 'myexpenses' > MyExpenses Tracker</h1>");
@@ -65,6 +77,9 @@ const lable9 = $("<p class= 'lables' > haircut: </p>");
 const lable10 = $("<p class= 'lables' > clothes: </p>");
 const lable11 = $("<p class= 'lables' > fuel: </p>");
 const lable12 = $("<p class= 'lables' > miscellaneous: </p>");
+
+const lablelog = $("<p class= 'log' > Email: </p>");
+const lablepass = $("<p class= 'log' > Password: </p>");
 
 const input1 = $("<input id='i1' type='number' class= 'inputs'>");
 const input2 = $("<input id='i2' type='number' class= 'inputs'>");
@@ -152,6 +167,12 @@ resulttext4.appendTo(expensesdiv);
 result4.appendTo(expensesdiv);
 resulttext5.appendTo(expensesdiv);
 result5.appendTo(expensesdiv);
+
+logdatadiv.appendTo(bodydiv)
+password.appendTo(logdatadiv)
+email.appendTo(logdatadiv)
+lablelog.appendTo(logdatadiv)
+lablepass.appendTo(logdatadiv)
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")
