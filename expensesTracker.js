@@ -34,7 +34,7 @@ const logdatadiv = $("<div id='logdatadiv'> </div>");
 
 //login**************************************
 const email = $("<input id='email' >");
-const password = $("<input id='password' >");
+const password = $("<input type='password' id='password' >");
 
 
 
@@ -95,6 +95,7 @@ const input11 = $("<input id='i11' type='number' class= 'inputs'>");
 const input12 = $("<input id='i12' type='number' class= 'inputs'>");
 
 const backbutton = $("<button id='backbutton'> Back </button>");
+const loginbutton = $("<button id='loginbutton'> Login >> </button>");
 
 // expenses *******************************************
 
@@ -173,7 +174,7 @@ lablelog.appendTo(logdatadiv)
 email.appendTo(logdatadiv)
 lablepass.appendTo(logdatadiv)
 password.appendTo(logdatadiv)
-
+loginbutton.appendTo(logdatadiv)
 
 
 
@@ -522,9 +523,17 @@ $(".menuitems").on("mouseout", function () {
 
 menuheader.hide();
 menudiv.hide();
+logdatadiv.hide();
 
 // on click upper bar buttons
+
+
+
+
+
+
 $('#home').on("click", function () {
+  logdatadiv.fadeOut();
   menuheader.fadeOut();
   menudiv.fadeOut();
   mydatadiv1.fadeOut();
@@ -532,10 +541,27 @@ $('#home').on("click", function () {
   backbutton.fadeOut();
   expensesdiv.fadeOut();
 
-
-   maindiv.fadeIn();
+  maindiv.fadeIn();
 
 });
+
+let t=true
+$('#login').click(()=>{
+ if(t) {
+     logdatadiv.fadeIn()
+     t=false
+}else{
+  t = true
+  logdatadiv.fadeOut()
+}
+}
+
+)
+
+
+
+
+
 
 //--- my Data
  mydatadiv1.hide();
@@ -553,6 +579,9 @@ $(start).on("click", function () {
   menuheader.fadeIn("slow");
   menudiv.fadeIn("slow");
 });
+
+
+
 
 
 $(menuitem1).on("click", function () {
@@ -581,5 +610,10 @@ $(menuitem2).on("click", function () {
   expensesdiv.fadeIn();
   backbutton.fadeIn();
 });
+
+
+
+
+
 
 

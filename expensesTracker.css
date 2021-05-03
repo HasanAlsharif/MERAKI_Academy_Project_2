@@ -143,8 +143,8 @@ p4 {
   display: grid;
   
   grid-template-columns: 90px 200px;
-  grid-template-rows: 30px 30px;
-  row-gap: 20px;
+  grid-template-rows: 30px 30px 20px;
+  row-gap:7px;
 
 
 }
@@ -299,3 +299,5 @@ p4 {
   border: solid 0.5px;
   left: 45px;
 }
+
+
