@@ -190,10 +190,6 @@ $("#i1").on("change", () => {
 });
 
 
-
-
-
-
 $("#i2").on("change", () => {
   income = Number($("#i1").val()) + Number($("#i2").val());
   result1.html(income);
@@ -215,16 +211,198 @@ $("#i2").on("change", () => {
   result5.html(income - expenses - ((income - expenses) * 50) / 100);
 });
 
+$("#i3").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
 
 
+$("#i4").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
 
 
+$("#i5").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+$("#i6").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
 
 
+$("#i7").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+$("#i8").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+$("#i9").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
+
+$("#i10").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
+
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
 
 
+$("#i11").on("change", () => {
+  income = Number($("#i1").val()) + Number($("#i2").val());
+  result1.html(income);
 
-
+  expenses =
+    Number($("#i3").val()) +
+    Number($("#i4").val()) +
+    Number($("#i5").val()) +
+    Number($("#i6").val()) +
+    Number($("#i7").val()) +
+    Number($("#i8").val()) +
+    Number($("#i9").val()) +
+    Number($("#i10").val()) +
+    Number($("#i11").val()) +
+    Number($("#i12").val());
+  result2.html(expenses);
+  result3.html(income - expenses);
+  result4.html(((income - expenses) * 50) / 100);
+  result5.html(income - expenses - ((income - expenses) * 50) / 100);
+});
 
 
 $("#i12").on("change", () => {
@@ -260,9 +438,27 @@ $("#i12").on("change", () => {
 
 //Dynamic********************************************
 //upper bar
+$('#home').on("mouseover", function () {
+  $('#home').addClass("upperbaritems");
+});
+$('#home').on("mouseout", function () {
+  $('#home').removeClass("upperbaritems");
+});
 
 
+$('#contactus').on("mouseover", function () {
+  $('#contactus').addClass("upperbaritems");
+});
+$('#contactus').on("mouseout", function () {
+  $('#contactus').removeClass("upperbaritems");
+});
 
+$('#about').on("mouseover", function () {
+  $('#about').addClass("upperbaritems");
+});
+$('#about').on("mouseout", function () {
+  $('#about').removeClass("upperbaritems");
+});
 
 
 
@@ -303,12 +499,26 @@ $(".menuitems").on("mouseout", function () {
 menuheader.hide();
 menudiv.hide();
 
+// on click upper bar buttons
+$('#home').on("click", function () {
+  menuheader.fadeOut();
+  menudiv.fadeOut();
+  mydatadiv1.fadeOut();
+  mydatadiv2.fadeOut();
+  backbutton.fadeOut();
+  expensesdiv.fadeOut();
+
+
+   maindiv.fadeIn();
+
+});
+
 //--- my Data
-// mydatadiv1.hide();
-// mydatadiv2.hide();
+ mydatadiv1.hide();
+ mydatadiv2.hide();
 
 //-- my expenses
-// expensesdiv.hide();
+ expensesdiv.hide();
 
 //--back button
 backbutton.hide();
@@ -319,6 +529,7 @@ $(start).on("click", function () {
   menuheader.fadeIn("slow");
   menudiv.fadeIn("slow");
 });
+
 
 $(menuitem1).on("click", function () {
   menuheader.fadeOut();
@@ -346,3 +557,5 @@ $(menuitem2).on("click", function () {
   expensesdiv.fadeIn();
   backbutton.fadeIn();
 });
+
+

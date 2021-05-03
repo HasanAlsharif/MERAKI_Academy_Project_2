@@ -41,8 +41,12 @@ divdown {
   margin: 0px;
 
   color: rgb(7, 7, 7);
+  
+  
+  padding: 7px;
+  padding-bottom: 4px;
   left: 880px;
-  top: 5px;
+  top: 0px;
 }
 
 
@@ -50,10 +54,13 @@ divdown {
   position: fixed;
   margin: 0px;
   font-weight: 550;
+  padding: 7px;
+  padding-bottom: 4px;
+
 
   color: rgb(7, 7, 7);
   left: 960px;
-  top: 5px;
+  top: 0px;
 }
 
 
@@ -62,9 +69,20 @@ divdown {
   margin: 0px;
   font-weight: 550;
 
+  padding: 7px;
+  padding-bottom: 4px;
+
   color: rgb(7, 7, 7);
   left: 1070px;
-  top: 5px;
+  top: 0px;
+}
+
+
+
+.upperbaritems{
+  
+  box-shadow: 0px 3px  grey
+ 
 }
 
 
@@ -78,6 +96,11 @@ p4 {
 
   top: 7px;
 }
+
+
+
+
+
 
 /* DOM elements****************************************** */
 /* body */
@@ -213,7 +236,7 @@ p4 {
   height: 270px;
   width: 400px;
   top: 200px;
-  /* left: 480px; */
+  left: 480px;
   display: flex;
   flex-direction: column;
   background-color: rgb(39, 39, 38);
@@ -230,7 +253,7 @@ p4 {
 }
 
 /* Dynamic css***********************************/
-/* Main Menu */
+/* Main Menu list */
 
 .overstartbutton {
   color: whitesmoke;
