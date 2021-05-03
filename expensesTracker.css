@@ -246,11 +246,12 @@ p4 {
   left: 670px;
   display: flex;
   flex-direction: column;
+  
   background-color: rgb(39, 39, 38);
 }
 
 .inputs {
-  margin: 10.2px;
+  margin: 9.3px;
 }
 
 #backbutton {
