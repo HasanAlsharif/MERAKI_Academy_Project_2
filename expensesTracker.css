@@ -26,6 +26,7 @@ divup {
   top: 5px;
 }
 
+
 divdown {
   background-color: rgb(201, 201, 201);
   width: 100%;
@@ -119,13 +120,32 @@ p4 {
 /* All Other DOM */
 
 /* login data */
+
+.log{
+
+   margin-top: 5px;
+
+}
+
 #logdatadiv{
   position: fixed;
   
-  border: solid black;
+  border: solid rgb(51, 50, 50);
+  background-color: whitesmoke;
   left: 20px;
-  width: 350px;
+  width: 330px;
   height: 100px;
+
+  padding: 5px;
+  padding-left: 20px;
+  padding-top: 15px;
+ 
+  display: grid;
+  
+  grid-template-columns: 90px 200px;
+  grid-template-rows: 30px 30px;
+  row-gap: 20px;
+
 
 }
 

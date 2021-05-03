@@ -169,10 +169,13 @@ resulttext5.appendTo(expensesdiv);
 result5.appendTo(expensesdiv);
 
 logdatadiv.appendTo(bodydiv)
-password.appendTo(logdatadiv)
-email.appendTo(logdatadiv)
 lablelog.appendTo(logdatadiv)
+email.appendTo(logdatadiv)
 lablepass.appendTo(logdatadiv)
+password.appendTo(logdatadiv)
+
+
+
 
 //css ***********************************************
 // menuitem6.addClass("menuitems")
